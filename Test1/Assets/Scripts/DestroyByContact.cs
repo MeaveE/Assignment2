@@ -5,10 +5,12 @@ using UnityEngine;
 public class DestroyByContact : MonoBehaviour {
 
 	public float moveSpeed = 3;
+	public GameObject blood;
 	Transform LMove, RMove;
 	Vector3 localScale;
 	bool movingRight= true;
 	Rigidbody2D rb;
+
 
 	void Start()
 	{
@@ -48,8 +50,9 @@ public class DestroyByContact : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col)
 	{
-		Debug.Log ("Collision name =" + col.gameObject);
+		//Debug.Log ("Collision name =" + col.gameObject);
 		if (col.gameObject.tag.Equals ("Bullet")) {
+			Instantiate (blood, transform.position, Quaternion.identity);
 			Destroy (col.gameObject);
 			Destroy (gameObject);
 		}

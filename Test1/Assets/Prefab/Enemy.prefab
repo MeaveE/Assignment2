@@ -90,6 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  blood: {fileID: 1190678378979352, guid: 6582c224281860441bf7a5c2c6e94ca9, type: 2}
 --- !u!212 &212912828491709794
 SpriteRenderer:
   m_ObjectHideFlags: 1
