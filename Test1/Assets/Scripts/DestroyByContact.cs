@@ -52,6 +52,7 @@ public class DestroyByContact : MonoBehaviour {
 	{
 		//Debug.Log ("Collision name =" + col.gameObject);
 		if (col.gameObject.tag.Equals ("Bullet")) {
+			ScoreScript.scoreValue += 10;
 			Instantiate (blood, transform.position, Quaternion.identity);
 			Destroy (col.gameObject);
 			Destroy (gameObject);
