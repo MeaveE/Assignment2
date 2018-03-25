@@ -498,6 +498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1202399123}
   - component: {fileID: 1202399122}
+  - component: {fileID: 1202399124}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Untagged
@@ -517,7 +518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1496298129437868, guid: be27f4c69f025804e96523f5af35ee1b, type: 2}
-  spawnRate: 2
+  spawnRate: 3
 --- !u!4 &1202399123
 Transform:
   m_ObjectHideFlags: 0
@@ -531,6 +532,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1202399124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1202399121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806fa8cb10ab6694d9b56f1a38657355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  angle: {fileID: 1430202356164466, guid: 111572a25bb282e4684aa863f50e8d45, type: 2}
+  spawnRate: 4
 --- !u!1 &1286458157
 GameObject:
   m_ObjectHideFlags: 0

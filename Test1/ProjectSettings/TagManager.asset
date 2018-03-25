@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Forground
   - Bullet
+  - GoodGuy
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - 
   - Player
   - Enemy
-  - 
+  - GoodGuy
   - 
   - 
   - 
