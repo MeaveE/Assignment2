@@ -10,9 +10,12 @@ public class Shooting : MonoBehaviour
 		private List<GameObject> Projectiles = new List<GameObject> ();
 
 		private float projectileVelocity;
+		
+		//public AudioSource Fire;
+
 
 		//Use this for initialization
-			void Start() 
+		void Start() 
 		{
 			projectileVelocity = 3;
 		}
@@ -21,12 +24,16 @@ public class Shooting : MonoBehaviour
 	void Update ()
 	{
 		if (Input.GetButtonDown ("Shoot")) {
+			//play gunfire not operational ?
 			GameObject bullet = (GameObject)Instantiate (projectilePrefab, transform.position, Quaternion.identity);
 			Projectiles.Add (bullet);
+			//PlaySound();
+			SoundManager.PlaySound("fire");
 		}
 		for (int i = 0; i < Projectiles.Count; i++) {
 			GameObject goBullet = Projectiles [i];
 			if (goBullet != null) {
+				
 				goBullet.transform.Translate (new Vector3 (0, 4) * Time.deltaTime * projectileVelocity);
 					
 				Vector3 bulletScreenPos = Camera.main.WorldToScreenPoint(goBullet.transform.position);
@@ -39,5 +46,9 @@ public class Shooting : MonoBehaviour
 		}
 	}
 
+	/*public void PlaySound()
+	{
+		Fire.Play();
+	}*/
 
 }

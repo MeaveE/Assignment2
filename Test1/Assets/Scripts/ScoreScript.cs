@@ -17,6 +17,11 @@ public class ScoreScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		score.text = "Score: " + scoreValue;
+
+		if (scoreValue < 0) {
+			score.text = "Game Over!";
+			Time.timeScale = 0;
+		}
 		
 	}
 }
