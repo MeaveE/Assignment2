@@ -28,7 +28,8 @@ public class Shooting : MonoBehaviour
 			GameObject bullet = (GameObject)Instantiate (projectilePrefab, transform.position, Quaternion.identity);
 			Projectiles.Add (bullet);
 			//PlaySound();
-			SoundManager.PlaySound("fire");
+			SoundManager soundManage = new SoundManager();
+			soundManage.PlaySound("fire");
 		}
 		for (int i = 0; i < Projectiles.Count; i++) {
 			GameObject goBullet = Projectiles [i];

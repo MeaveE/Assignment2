@@ -51,10 +51,12 @@ public class GoodFish : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col)
 	{
+		
 		//Debug.Log ("Collision name =" + col.gameObject);
 		if (col.gameObject.tag.Equals ("Bullet")) {
 			ScoreScript.scoreValue -= 10;
-			SoundManager.PlaySound ("die");
+			SoundManager SoundManage = new SoundManager ();
+			SoundManage.PlaySound ("die");
 			Instantiate (blood, transform.position, Quaternion.identity);
 			Destroy (col.gameObject);
 			Destroy (gameObject);

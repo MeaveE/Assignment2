@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 420913315}
   - component: {fileID: 420913314}
   m_Layer: 0
-  m_Name: SoundManager
+  m_Name: SoundManagerGO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1087,7 +1087,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1988266302284860, guid: b7fa69c7a5b3b9743a0f5f9f14f8921c,
     type: 2}
-  Fire: {fileID: 1070463243}
 --- !u!1 &1807507755
 GameObject:
   m_ObjectHideFlags: 0
