@@ -1,4 +1,4 @@
-#Sea based Shooting Game
+# Sea based Shooting Game
 
 ## Plot 
 
