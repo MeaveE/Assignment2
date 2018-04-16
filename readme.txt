@@ -1,6 +1,7 @@
-<H1> Sea based Shooting Game<H1>
+#Sea based Shooting Game
 
-<H2> Plot <H2>
+## Plot 
+
 After the jellyFish Bloom of 2011 scientist began to create a species of fish that could be 
 deployed into the seas to deal with the over population of certain species of fish. They created
 a mutant Paranah which they beleived would help the ecosystems of the oceans but something
