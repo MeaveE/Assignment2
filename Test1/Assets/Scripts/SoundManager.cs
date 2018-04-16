@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour {
 
-	public AudioSource fire;
-	public AudioSource die;
+	public AudioSource Fire;
+	public AudioSource Sad;
+	public AudioSource Yes;
+
 
 	
 	// Update is called once per frame
@@ -15,19 +17,28 @@ public class SoundManager : MonoBehaviour {
 		case "fire" :
 			PlayFire();
 			break;
-		case "die" :
-			PlayDie();
+		case "sad" :
+			PlaySad();
+			break;
+		case "yes":
+			PlayYes ();
 			break;
 		}
 	}
 
 	public void PlayFire()
 	{
-		fire.Play();
+		//Debug.Log (Fire.name); didnt reach this code 
+		Fire.Play();
+
 	}
 
-	public void PlayDie()
+	public void PlaySad()
 	{
-		die.Play();
+		Sad.Play();
+	}
+	public void PlayYes()
+	{
+		Yes.Play ();
 	}
 }

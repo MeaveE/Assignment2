@@ -22,6 +22,12 @@ public class ScoreScript : MonoBehaviour {
 			score.text = "Game Over!";
 			Time.timeScale = 0;
 		}
+		if (scoreValue > 250) {
+			score.text = "You Win!";
+			Destroy (GameObject.FindWithTag("Enemy"));
+			Time.timeScale = 0;
+
+		}
 		
 	}
 }

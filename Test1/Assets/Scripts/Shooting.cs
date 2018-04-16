@@ -24,11 +24,11 @@ public class Shooting : MonoBehaviour
 	void Update ()
 	{
 		if (Input.GetButtonDown ("Shoot")) {
-			//play gunfire not operational ?
+	
 			GameObject bullet = (GameObject)Instantiate (projectilePrefab, transform.position, Quaternion.identity);
 			Projectiles.Add (bullet);
 			//PlaySound();
-			SoundManager soundManage = new SoundManager();
+			SoundManager soundManage = FindObjectOfType<SoundManager>();
 			soundManage.PlaySound("fire");
 		}
 		for (int i = 0; i < Projectiles.Count; i++) {

@@ -55,8 +55,10 @@ public class GoodFish : MonoBehaviour {
 		//Debug.Log ("Collision name =" + col.gameObject);
 		if (col.gameObject.tag.Equals ("Bullet")) {
 			ScoreScript.scoreValue -= 10;
-			SoundManager SoundManage = new SoundManager ();
-			SoundManage.PlaySound ("die");
+
+			SoundManager soundManage = FindObjectOfType<SoundManager>();
+			soundManage.PlaySound("sad");
+
 			Instantiate (blood, transform.position, Quaternion.identity);
 			Destroy (col.gameObject);
 			Destroy (gameObject);
