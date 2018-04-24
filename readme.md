@@ -21,6 +21,8 @@ and unfortunatly you are among them.
 Your goal is to kill the Paranahs without killing the local sea life but don't worry they have
 yet to develope a taste for human flesh. Good Luck!
 
+### check out the video below
+
 <p align="center">
 <a href="https://youtu.be/EfIYuNKN0FU" target="_blank"><img src="https://img.youtube.com/vi/EfIYuNKN0FU/0.jpg" 
 alt="Fish shooting game" width="440" height="280" border="10" /></a>
