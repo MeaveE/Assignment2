@@ -1,14 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScoreScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Shooting.cs">
     <Files>
-      <File FileName="Assets\Scripts\DestroyByContact.cs" Line="58" Column="28" />
+      <File FileName="Assets\Scripts\DestroyByContact.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\EnemySpawner.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Button.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ScoreScript.cs" Line="24" Column="4" />
-      <File FileName="Assets\Scripts\Shooting.cs" Line="28" Column="1" />
-      <File FileName="Assets\Scripts\GoodFish.cs" Line="60" Column="33" />
-      <File FileName="Assets\Scripts\SoundManager.cs" Line="42" Column="15" />
+      <File FileName="Assets\Scripts\ScoreScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Shooting.cs" Line="10" Column="27" />
+      <File FileName="Assets\Scripts\GoodFish.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SoundManager.cs" Line="1" Column="1" />
+      <File FileName="..\..\ShooterTest1\Assets\_Scripts\PlayerControler.cs" Line="1" Column="1" />
+      <File FileName="..\..\ShooterTest1\Assets\_Scripts\GameControler.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

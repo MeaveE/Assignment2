@@ -7,11 +7,10 @@ public class Shooting : MonoBehaviour
 
 		public GameObject projectilePrefab;
 
-		private List<GameObject> Projectiles = new List<GameObject> ();
+		private List<GameObject> Projectiles =  new List<GameObject> ();
 
 		private float projectileVelocity;
 		
-		//public AudioSource Fire;
 
 
 		//Use this for initialization
@@ -25,7 +24,7 @@ public class Shooting : MonoBehaviour
 	{
 		if (Input.GetButtonDown ("Shoot")) {
 	
-			GameObject bullet = (GameObject)Instantiate (projectilePrefab, transform.position, Quaternion.identity);
+			GameObject bullet = (GameObject) Instantiate(projectilePrefab, transform.position, Quaternion.identity);
 			Projectiles.Add (bullet);
 			//PlaySound();
 			SoundManager soundManage = FindObjectOfType<SoundManager>();
@@ -47,9 +46,5 @@ public class Shooting : MonoBehaviour
 		}
 	}
 
-	/*public void PlaySound()
-	{
-		Fire.Play();
-	}*/
 
 }

@@ -1,5 +1,12 @@
 # Sea Based Shooting Game
 
+##Tech 
+This game was made in Unity with C# with Visual studios.
+The Graphics and sprites were designed and sketched in Krita an open source drawing programme.
+
+##The Team
+Me, myself and I coded, drew and sourced all the materials required for this game.
+
 ## Plot 
 
 After the jellyFish Bloom of 2011 scientist began to create a species of fish that could be 
@@ -13,3 +20,5 @@ and unfortunatly you are among them.
 
 Your goal is to kill the Paranahs without killing the local sea life but don't worry they have
 yet to develope a taste for human flesh. Good Luck!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EfIYuNKN0FU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

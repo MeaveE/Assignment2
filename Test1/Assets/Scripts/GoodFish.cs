@@ -64,8 +64,5 @@ public class GoodFish : MonoBehaviour {
 			Destroy (gameObject);
 		}
 	}
-	/*public void PlaySound()
-	{
-		die.Play ();
-	}*/
+
 }
