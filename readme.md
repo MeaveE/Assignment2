@@ -21,4 +21,7 @@ and unfortunatly you are among them.
 Your goal is to kill the Paranahs without killing the local sea life but don't worry they have
 yet to develope a taste for human flesh. Good Luck!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EfIYuNKN0FU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+<a href="https://youtu.be/EfIYuNKN0FU" target="_blank"><img src="https://youtu.be/EfIYuNKN0FU.jpeg" 
+alt="Processing Star ship simulation" width="240" height="180" border="10" /></a>
