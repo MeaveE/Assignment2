@@ -1,10 +1,10 @@
 # Sea Based Shooting Game
 
-##Tech 
+## Tech 
 This game was made in Unity with C# with Visual studios.
 The Graphics and sprites were designed and sketched in Krita an open source drawing programme.
 
-##The Team
+## The Team
 Me, myself and I coded, drew and sourced all the materials required for this game.
 
 ## Plot 
@@ -21,6 +21,9 @@ and unfortunatly you are among them.
 Your goal is to kill the Paranahs without killing the local sea life but don't worry they have
 yet to develope a taste for human flesh. Good Luck!
 
+<p align="center">
 
 <a href="https://youtu.be/EfIYuNKN0FU" target="_blank"><img src="https://img.youtube.com/vi/EfIYuNKN0FU/0.jpg" 
 alt="Fish shooting game" width="240" height="180" border="10" /></a>
+
+</p>
