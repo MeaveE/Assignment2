@@ -23,5 +23,5 @@ yet to develope a taste for human flesh. Good Luck!
 
 
 
-<a href="https://youtu.be/EfIYuNKN0FU" target="_blank"><img src="https://youtu.be/EfIYuNKN0FU/0.jpg" 
-alt="Processing Star ship simulation" width="240" height="180" border="10" /></a>
+<a href="https://youtu.be/EfIYuNKN0FU" target="_blank"><img src="https://img.youtu.be/EfIYuNKN0FU/0.jpg" 
+alt="Fish shooting game" width="240" height="180" border="10" /></a>
