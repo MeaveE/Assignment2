@@ -23,5 +23,5 @@ yet to develope a taste for human flesh. Good Luck!
 
 <p align="center">
 <a href="https://youtu.be/EfIYuNKN0FU" target="_blank"><img src="https://img.youtube.com/vi/EfIYuNKN0FU/0.jpg" 
-alt="Fish shooting game" width="540" height="480" border="10" /></a>
+alt="Fish shooting game" width="540" height="380" border="10" /></a>
 </p>
